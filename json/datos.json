@@ -1,0 +1,131 @@
+{
+	"nombre"         : "John Vladimir",
+	"apellido"       : "Porras Ramirez",
+	"titulosItems"   : [
+		{
+			"titulo"      : "Apellidos",
+			"descripcion" : ""
+		},
+		{
+			"titulo"      : "Nombres",
+			"descripcion" : ""
+		},
+		{
+			"titulo"      : "Correo",
+			"descripcion" : ""
+		},
+		{
+			"titulo"      : "Telefono",
+			"descripcion" : ""
+		},
+		{
+			"titulo"      : "Sobre mí",
+			"descripcion" : "Soy una persona que esta en aprendizaje constante y autodidacta. Así como me gusta aprender me gusta enseñar o compartir el conocimiento adquirido youtube/JohnPorrasR.Administro, desarrollo, diseño de sistemas informáticos y portales web, entre las herramientas para la administración de sistemas informáticos o portales web uno de mis preferidos es github donde encontraran trabajo o proyectos que estoy desarrollando."
+		},
+		{
+			"titulo"      : "Redes sociales",
+			"descripcion" : ""
+		},
+		{
+			"titulo"      : "Nota",
+			"descripcion" : "Para poder realizar la presentación he utilizado lo siguiente: "
+		}
+	],
+	"correoItems"    : [
+		{
+			"correo"  : "johnporrasr@gmail.com"
+		},
+		{
+			"correo"  : "johnporrasr@hotmail.com"
+		}
+	],
+	"telefonosItems" : [
+		{
+			"titulo" : "Celular",
+			"numero" : "941458641",
+			"icon"   : "glyphicon glyphicon-phone"
+		}
+	],
+	"imgItems"       : [
+		{
+			"img"   : "img/icons/social-32-twitter.png",
+			"link"    : "https://twitter.com/JohnPorrasR"
+		},
+		{
+			"img"   : "img/icons/social-31-facebook.png",
+			"link"    : "https://www.facebook.com/pages/John-Porras-R/343999052298640?ref=hl"
+		},
+		{
+			"img"   : "img/icons/social-3-google-plus.png",
+			"link"    : "https://plus.google.com/u/0/+JohnPorrasR/"
+
+		},
+		{
+			"img"   : "img/icons/social-22-github.png",
+			"link"    : "https://github.com/JohnPorrasR"
+		},
+		{
+			"img"   : "img/icons/social-18-linked-in.png",
+			"link"    : "https://www.linkedin.com/profile/view?id=252536577&trk=nav_responsive_tab_profile"
+		},
+		{
+			"img"   : "img/icons/social-23-youtube.png",
+			"link"    : "https://www.youtube.com/user/JohnPorrasR"
+		},
+		{
+			"img"   : "img/icons/social-33-instagram.png",
+			"link"    : "http://instagram.com/johnporrasr/"
+		},
+		{
+			"img"   : "img/icons/social-6-blogger.png",
+			"link"    : "http://johnporrasr.blogspot.com/"
+		}
+	],
+	"linkItems"      : [
+		{
+			"link"    : "https://twitter.com/JohnPorrasR"
+		},
+		{
+			"link"    : "https://www.facebook.com/pages/John-Porras-R/343999052298640?ref=hl"
+		},
+		{
+			"link"    : "https://plus.google.com/u/0/+JohnPorrasR/"
+		},
+		{
+			"link"    : "https://github.com/JohnPorrasR"
+		},
+		{
+			"link"    : "https://www.linkedin.com/profile/view?id=252536577&trk=nav_responsive_tab_profile"
+		},
+		{
+			"link"    : "https://www.youtube.com/user/JohnPorrasR"
+		},
+		{
+			"link"    : "http://instagram.com/johnporrasr/"
+		},
+		{
+			"link"    : "http://johnporrasr.blogspot.com/"
+		}
+	],
+	"notaItems"      : [
+		{
+			"nota"    : "Git y github"
+		},
+		{
+			"nota"    : "Angular"
+		},
+		{
+			"nota"    : "Html5"
+		},
+		{
+			"nota"    : "Css3"
+		},
+		{
+			"nota"    : "Gulp"
+		},
+		{
+			"nota"    : "Sublime text 3"
+		}
+	]
+}
+

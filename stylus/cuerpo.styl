@@ -1,0 +1,73 @@
+body 
+	div.container
+		section.cuerpo
+			margin-top 20px
+			#yo 
+			#experiencia 
+			#portafolio 
+			#contactame
+				background hsla(0, 0%, 100%,.5)
+				border 1px solid transparent
+				border-radius 30px
+				margin 5px auto
+				min-height 250px
+				width 80%
+			#yo 
+				.datos
+					margin 10px 10px 5px 20px
+				.perfil
+					margin 10px 60px 5px 60px
+					.redes
+						display inline-block
+						height 25px
+						width 25px
+			#experiencia
+				.categoria
+					width 100%
+					margin 10px 30px
+					&-content
+						border 1px solid hsla(0, 0%, 0%,.5)
+						width 90%
+						background-color #ffffff
+						h3
+							text-align center
+					.margin-bottom
+						margin 0 0 20px 0
+						.contenedorImg
+							display inline-block
+							margin 20px 25px 0
+							height 133px
+							width 150px
+							animation-duration 0.5s
+							-moz-animation-duration 0.5s
+							-ms-animation-duration 0.5s
+							-o-animation-duration 0.5s
+							-webkit-animation-duration 0.5s
+							.imgLogo
+							.conocimiento
+								background-color #ffffff
+							.conocimiento
+								.estrella
+									display inline-block
+									height 24px
+									width 24px
+				.nota 
+					margin 10px 10px 5px 30px
+				.contenedorImg:hover
+					box-shadow 5px 5px 5px hsla(0, 0%, 0%,.5)
+					border 1px solid hsla(0, 0%, 0%,.4)
+					animation-name sombra_caja
+					-moz-animation-name sombra_caja
+					-ms-animation-name sombra_caja
+					-o-animation-name sombra_caja
+					-webkit-animation-name sombra_caja
+			#portafolio
+				.contenido_portafolio
+					margin 50px
+
+@keyframes sombra_caja
+	for i in 0..5
+		pixel = unit(i, px)
+		{20% * i}
+			box-shadow pixel pixel pixel hsla(0, 0%, 0%,.5)
+			

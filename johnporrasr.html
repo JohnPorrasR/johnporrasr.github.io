@@ -1,0 +1,32 @@
+<h4> <b>{{ datos.titulosItems[0].titulo }}:</b> </h4> {{ datos.apellido }} <br>
+<h4> <b>{{ datos.titulosItems[1].titulo }}:</b> </h4> {{ datos.nombre }} <br>
+
+
+<h4> <b>{{ datos.titulosItems[2].titulo }}:</b> </h4>
+<ul ng-repeat="c in datos.correoItems">
+	<li> {{ c.correo }} </li>
+</ul>
+
+
+
+<h4> <b>{{ datos.titulosItems[3].titulo }}:</b> </h4>
+<ul ng-repeat="c in datos.telefonosItems">
+	<li> {{ c.titulo }}: <span class=" {{ c.icon }} " aria-hidden="true"></span> {{ c.numero }} </li>
+</ul>
+
+
+<h4> <b>{{ datos.titulosItems[4].titulo }}:</b> </h4>
+<p> {{ datos.titulosItems[4].descripcion }} </p>
+
+
+<h4> <b>{{ datos.titulosItems[5].titulo }}:</b> </h4>
+<ul ng-repeat="i in datos.imgItems">
+	<li> <a href=" {{ i.link }} " target="new"><img src="{{ i.img }}" alt=""></a> </li>
+</ul>
+
+
+<h4> <b>{{ datos.titulosItems[6].titulo }}:</b> </h4> <br>
+{{ datos.titulosItems[6].descripcion }}:
+<ul ng-repeat="n in datos.notaItems">
+	<li>{{ n.nota }} </li>
+</ul>
